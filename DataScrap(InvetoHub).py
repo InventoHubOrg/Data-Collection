@@ -58,11 +58,7 @@ credentials, project = default()
 import pandas as pd
 
 # Example list of dictionaries
-data = rows
-'''[
-    {'Date': '18/01/2025', 'Subject': 'Google Alert – Daily Digest', 'Link': 'https://www.google.com/url?rct=j&sa=t&url=https://www.uspto.gov/about-us/news-updates/uspto-releases-fee-study-report-congress&ct=ga&cd=CAEYACoTMTkyOTg5NzQ0NTMyNjY2NDc1MTIcMDFiODM2ODlhMjA4YjE5NTpjby5pbjplbjpJTg&usg=AOvVaw2gzVyLHWa1QgWYcmW7PG6g>'},
-    {'Date': '18/01/2025', 'Subject': 'Google Alert – Daily Digest', 'Link': 'https://www.google.com/url?rct=j&sa=t&url=https://psychedelicalpha.com/news/patent-analysis-lykos-suffers-blow-from-uspto-as-all-patent-claims-stand-finally-rejected&ct=ga&cd=CAEYASoTMTkyOTg5NzQ0NTMyNjY2NDc1MTIcMDFiODM2ODlhMjA4YjE5NTpjby5pbjplbjpJTg&usg=AOvVaw0h8e4_XbXhwYuembAW5ytT>'}
-]'''
+data = rows 
 
 # Convert to DataFrame
 df = pd.DataFrame(data)
